@@ -112,9 +112,9 @@ where = ["src"]
 
 [project.entry-points.'nomad.plugin']
 
-schema_package_entry_point = "sintering.schema_packages:schema_package_entry_point"
+#schema_package_entry_point = "sintering.schema_packages:schema_package_entry_point"
 
-
+sintering = "sintering.schema_packages:sintering"
 
 [tool.cruft]
 # Avoid updating workflow files, this leads to permissions issues
